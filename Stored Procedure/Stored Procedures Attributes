@@ -1,0 +1,54 @@
+		Stored Procedures
+		*****************
+		
+	1.	ON DELETE CASCADE
+		*****************
+		
+	*	It specifies that the child data is deleted when the parent data is deleted.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	2.	ON UPDATE
+		*********
+		
+	*	Optional. It specifies what to do with the child data when the parent data is updated. 
+	
+	*	You have the options of NO ACTION, CASCADE, SET NULL, or SET DEFAULT.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	3.	NO ACTION
+		*********
+		
+	*	It is used in conjunction with ON DELETE or ON UPDATE. 
+	
+	*	It means that no action is performed with the child data when the parent data is deleted or updated.
+	
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	4.	CASCADE
+		*******
+		
+	*	It is used in conjunction with ON DELETE or ON UPDATE. 
+	
+	*	It means that the child data is either deleted or updated when the parent data is deleted or updated.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	5.	SET NULL
+		********
+		
+	*	It is used in conjunction with ON DELETE or ON UPDATE. 
+	
+	*	It means that the child data is set to NULL when the parent data is deleted or updated.
+	
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	6.	SET DEFAULT
+		***********
+		
+	*	It is used in conjunction with ON DELETE or ON UPDATE. 
+	
+	*	It means that the child data is set to their default values when the parent data is deleted or updated.
+	
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
